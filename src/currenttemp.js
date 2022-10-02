@@ -4,22 +4,6 @@ import Currenticon from "./currenticon";
 import Tempconver from "./tempconver";
 
 function Currenttemp(props) {
-  let [slicedid, setSlicedid] = useState(`${props.icon.slice(0, 2)}`);
-  const ids = [`01`, `02`, `03`, `04`, `09`, `10`, `11`, `13`, `50`];
-  const iconclass = [
-    `fa-sun`,
-    `fa-cloud-sun`,
-    `fa-cloud-sun`,
-    `fa-cloud`,
-    `fa-cloud-rain`,
-    `fa-cloud-rain`,
-    `fa-cloud-bolt`,
-    `fa-snowflake`,
-    `fa-smog`,
-  ];
-  function checkid(n) {
-    return n === slicedid;
-  }
   if (props.ready) {
     return (
       <div>

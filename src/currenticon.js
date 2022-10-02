@@ -3,7 +3,7 @@ import "./css/currenticon.css";
 import SetIcon from "./seticon";
 
 function Currenticon(props) {
-  let [slicedid, setSlicedid] = useState(`${props.icon.slice(0, 2)}`);
+  let [slicedid] = useState(`${props.icon.slice(0, 2)}`);
   const ids = [`01`, `02`, `03`, `04`, `09`, `10`, `11`, `13`, `50`];
   const iconclass = [
     `fa-sun`,
