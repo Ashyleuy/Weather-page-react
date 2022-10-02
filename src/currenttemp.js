@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./css/currenttemp.css";
 import Currenticon from "./currenticon";
 import Tempconver from "./tempconver";
