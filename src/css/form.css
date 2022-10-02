@@ -1,0 +1,47 @@
+.bi-geo-alt {
+  color: #faf5e2 !important;
+  background-color: #996340;
+  border: none;
+  cursor: pointer;
+}
+.form {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.buttons {
+  max-width: 130px;
+}
+.cityy {
+  color: #996340;
+  font-size: 20px;
+  font-weight: 500;
+}
+.form-control {
+  border-color: #996340 !important;
+  background-color: #faf5e2 !important;
+}
+.btn-secondary {
+  margin-right: 10px;
+  background-color: #996340 !important;
+  border-color: #996340 !important;
+  cursor: pointer;
+}
+.line {
+  display: none;
+}
+.line2 {
+  display: none;
+}
+@media (max-width: 643px) {
+  .line {
+    display: block;
+    width: 100%;
+    padding: 3px 3px;
+    margin: 3px;
+  }
+  .line2 {
+    display: block;
+    width: 100%;
+    padding: 3px 3px;
+  }
+}

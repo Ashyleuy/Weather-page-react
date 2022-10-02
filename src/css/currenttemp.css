@@ -1,0 +1,143 @@
+.card-body1 {
+  padding-left: 25px;
+  height: auto;
+}
+.card-title2 {
+  font-size: 80px;
+}
+.bigtoptemp {
+  font-weight: 500;
+}
+.bigtemp {
+  font-weight: 200;
+}
+.celci {
+  color: #996340 !important;
+  position: relative;
+  vertical-align: top;
+  font-size: 40%;
+  font-weight: 400;
+  text-decoration: none !important;
+}
+.faren {
+  color: #996340 !important;
+  position: relative;
+  vertical-align: top;
+  font-size: 40%;
+  font-weight: 400;
+  text-decoration: none !important;
+}
+.active {
+  color: #9964407b !important;
+}
+.active:hover {
+  cursor: pointer;
+}
+.fa-sun {
+  font-size: 400%;
+  display: block;
+  text-align: center;
+  padding: 3px;
+  color: #996340 !important;
+}
+.fa-cloud-rain {
+  font-size: 400%;
+  display: block;
+  text-align: center;
+  padding: 3px;
+  color: #996340 !important;
+}
+.fa-cloud-sun {
+  font-size: 400%;
+  display: block;
+  text-align: center;
+  padding: 3px;
+  color: #996340 !important;
+}
+.fa-snowflake {
+  font-size: 400%;
+  display: block;
+  text-align: center;
+  padding: 3px;
+  color: #996340 !important;
+}
+.fa-smog {
+  font-size: 400%;
+  display: block;
+  text-align: center;
+  padding: 3px;
+  color: #996340 !important;
+}
+.fa-cloud {
+  font-size: 400%;
+  display: block;
+  text-align: center;
+  padding: 3px;
+  color: #996340 important;
+}
+.fa-cloud-bolt {
+  font-size: 400%;
+  display: block;
+  text-align: center;
+  padding: 3px;
+  color: #996340 important;
+}
+.card-text2 {
+  text-align: center;
+  font-size: 15px;
+}
+.row1 {
+  padding: 30px;
+  color: #996340;
+}
+.card-body1 {
+  height: auto;
+}
+.card-text1 {
+  margin: auto;
+  font-size: 30px;
+}
+.card-title1 {
+  margin: auto;
+  font-size: 40px;
+}
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+.show {
+  display: none;
+}
+@media (max-width: 991.5px) {
+  .noshow {
+    display: none;
+  }
+  .show {
+    text-align: center;
+    padding-top: 30px;
+    display: block;
+  }
+  .center {
+    display: block;
+    text-align: center;
+    width: -webkit-fill-available;
+  }
+  .form {
+    width: -webkit-fill-available;
+  }
+  .basic1 {
+    color: #996340;
+    margin: auto;
+    font-size: 40px;
+  }
+  .basic2 {
+    color: #996340;
+    margin: auto;
+    font-size: 30px;
+  }
+}
+@media (max-width: 423.5px) {
+  .card-title2 {
+    font-size: 60px;
+  }
+}
