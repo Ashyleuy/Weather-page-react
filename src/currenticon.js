@@ -3,7 +3,6 @@ import "./css/currenticon.css";
 import SetIcon from "./seticon";
 
 function Currenticon(props) {
-  let [slicedid] = useState(`${props.icon.slice(0, 2)}`);
   let [Class, setClass] = useState("");
   let [loaded, setLoaded] = useState(false);
   const ids = [`01`, `02`, `03`, `04`, `09`, `10`, `11`, `13`, `50`];
@@ -19,7 +18,7 @@ function Currenticon(props) {
     `fa-smog`,
   ];
   function checkid(n) {
-    return n === slicedid;
+    return n === props.icon.slice(0, 2);
   }
   function setclass() {
     setClass(`fa-solid ${iconclass[ids.findIndex(checkid)]}`);
