@@ -5,7 +5,7 @@ function Githublink() {
   return (
     <div>
       <a
-        href="https://github.com/Ashyleuy/React_project_1"
+        href="https://github.com/Ashyleuy/Weather-page-react"
         className="githublink"
       >
         {" "}
