@@ -22,5 +22,6 @@ body {
 @media (max-width: 575.5px) {
   body {
     background-color: #faf5e2d3 !important;
+    padding-top: 0px;
   }
 }

@@ -1,6 +1,12 @@
 i.current-icon {
-  display: block;
+  display: blockx;
   margin: 10%;
-  text-align: centre;
+  text-align: center;
+  width: --webkit-fill-available;
   font-size: 400%;
+}
+@media (max-width: 352px) {
+  i.current-icon {
+    font-size: 250%;
+  }
 }

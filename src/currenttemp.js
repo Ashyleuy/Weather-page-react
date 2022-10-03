@@ -29,10 +29,10 @@ function Currenttemp(props) {
           <div className="col justify-content-center">
             <Tempconver data1={props.data1} />
             <div className="row justify-content-center">
-              <div className="col-4 ml-5">
+              <div className="col-4 marlef">
                 <Currenticon icon={props.icon} />
               </div>
-              <div className="col">
+              <div className="col ml-2 w">
                 <p className="card-text2">
                   <ul className="text-left">
                     <li id="description">

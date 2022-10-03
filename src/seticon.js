@@ -1,7 +1,7 @@
 import React from "react";
+import "./css/currenticon.css";
 
 function SetIcon(props) {
-  console.log(props.class);
   return <i className={props.class} id="current-icon"></i>;
 }
 

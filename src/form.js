@@ -14,6 +14,7 @@ function Form() {
 
   function showTemperature(response) {
     setdate();
+    console.log(response);
     setReady(true);
     setLoca(`${response.data.name}`);
     setIcon(`${response.data.weather[0].icon}`);
@@ -89,26 +90,24 @@ function Form() {
             />
           </div>
           <div className="line"></div>
-          <div className="col d-flex justify-content-end buttons">
-            <div className="col-1 d-flex">
-              <button
-                type="submit"
-                className="btn btn-secondary"
-                onClick={submitPlace}
-              >
-                Go
-              </button>
-            </div>
-            <div className="col-1 d-flex ml-3">
-              <button
-                type="submit"
-                className="btn btn-secondary ml-3"
-                id="clbut"
-                onClick={curposbut}
-              >
-                <i className="fa-solid fa-location-crosshairs"></i>
-              </button>
-            </div>
+          <div className="col-1 d-flex mr-1">
+            <button
+              type="submit"
+              className="btn btn-secondary"
+              onClick={submitPlace}
+            >
+              Go
+            </button>
+          </div>
+          <div className="col-1 d-flex ml-1 mr-5">
+            <button
+              type="submit"
+              className="btn btn-secondary ml-3"
+              id="clbut"
+              onClick={curposbut}
+            >
+              <i className="fa-solid fa-location-crosshairs"></i>
+            </button>
           </div>
         </form>
       </div>

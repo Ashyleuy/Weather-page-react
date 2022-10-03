@@ -24,7 +24,7 @@ function Currenticon(props) {
     return n === props.icon.slice(0, 2);
   }
   function setclass() {
-    setClass(`fa-solid ${iconclass[ids.findIndex(checkid)]}`);
+    setClass(`fa-solid ${iconclass[ids.findIndex(checkid)]} current-icon`);
     setLoaded(true);
   }
   if (loaded) {

@@ -108,6 +108,9 @@ ul {
 .show {
   display: none;
 }
+.marlef {
+  margin-left: 5px;
+}
 @media (max-width: 991.5px) {
   .noshow {
     display: none;
@@ -128,16 +131,41 @@ ul {
   .basic1 {
     color: #996340;
     margin: auto;
-    font-size: 40px;
+    font-size: 30px;
   }
   .basic2 {
     color: #996340;
     margin: auto;
-    font-size: 30px;
+    font-size: 20px;
   }
 }
+.w {
+  max-width: 250px;
+}
 @media (max-width: 423.5px) {
+  .basic1 {
+    color: #996340;
+    margin: auto;
+    font-size: 25px;
+  }
+  .basic2 {
+    color: #996340;
+    margin: auto;
+    font-size: 15px;
+  }
   .card-title2 {
     font-size: 60px;
+  }
+  .marlef {
+    margin-left: 1px;
+  }
+}
+
+@media (max-width: 352px) {
+  .card-title2 {
+    font-size: 35px;
+  }
+  .card-text2 {
+    font-size: 10px;
   }
 }
