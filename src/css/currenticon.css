@@ -10,3 +10,8 @@ i.current-icon {
     font-size: 250%;
   }
 }
+@media (max-width: 320px) {
+  i.current-icon {
+    padding-left: 0px;
+  }
+}
