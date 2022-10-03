@@ -161,7 +161,7 @@ ul {
   }
 }
 
-@media (max-width: 352px) {
+@media (max-width: 400px) {
   .card-title2 {
     font-size: 35px;
   }

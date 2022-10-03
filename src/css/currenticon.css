@@ -5,7 +5,7 @@ i.current-icon {
   width: --webkit-fill-available;
   font-size: 400%;
 }
-@media (max-width: 352px) {
+@media (max-width: 400px) {
   i.current-icon {
     font-size: 250%;
   }
