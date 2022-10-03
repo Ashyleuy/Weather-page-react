@@ -6,14 +6,16 @@ import Githublink from "./githublink";
 function App() {
   return (
     <div className="App">
-      <div className="content">
-        <div className="bigicon"></div>
-        <div className="container">
-          <Form />
+      <div className="container bkgr">
+        <div className="content">
+          <div className="bigicon"></div>
+          <div className="container">
+            <Form />
+          </div>
         </div>
+        <Githublink />
+        <script src="src/index.js"></script>
       </div>
-      <Githublink />
-      <script src="src/index.js"></script>
     </div>
   );
 }
