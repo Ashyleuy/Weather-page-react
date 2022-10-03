@@ -142,15 +142,11 @@ ul {
 .w {
   max-width: 250px;
 }
-@media (max-width: 423.5px) {
+@media (max-width: 467px) {
   .basic1 {
-    color: #996340;
-    margin: auto;
     font-size: 25px;
   }
   .basic2 {
-    color: #996340;
-    margin: auto;
     font-size: 15px;
   }
   .card-title2 {
