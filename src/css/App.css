@@ -1,7 +1,7 @@
 body {
   padding-top: 60px;
-  background-color: #faf5e2 !important;
-  color: #996340;
+  background-color: #996440be !important;
+  color: #faf5e2;
 }
 
 .content {
@@ -10,4 +10,17 @@ body {
   position: relative;
   max-width: 1000px;
   margin: auto;
+}
+.bkgr {
+  display: block;
+  justify-content: center;
+  background-color: #faf5e2d3;
+  border: 2px solid;
+  padding-bottom: 40px;
+  border-radius: 10px;
+}
+@media (max-width: 575.5px) {
+  body {
+    background-color: #faf5e2d3 !important;
+  }
 }
